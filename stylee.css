@@ -1,0 +1,167 @@
+
+#image1{
+    border: 5px solid darkseagreen;      
+    border-radius: 10px;           /* Bords légèrement arrondis */
+    padding: 10px;               
+    margin: 20px; 
+    width: 500px;  
+    height: 500px; 
+  
+}
+
+#image2{
+    border: 5px solid darkseagreen;      
+    border-radius: 10px;          
+    padding: 10px;               
+    margin: 20px; 
+    width: 500px;  
+    height: 500px;                  
+  
+}
+
+#image3{
+   
+        border: 5px solid darkseagreen;      
+        border-radius: 10px;           
+        padding: 10px;               
+        margin: 20px; 
+        width: 600px;  
+        height: 500px;                
+      
+    
+}
+
+#image4{
+    border: 5px solid darkseagreen;      
+    border-radius: 10px;          
+    padding: 10px;               
+    margin: 20px;  
+    width: 600px;  
+    height: 600px;                
+  
+}
+#image5{
+    border: 5px solid darkseagreen;      
+    border-radius: 10px;           
+    padding: 10px;               
+    margin: 20px;  
+    width: 600px;  
+    height: 600px;                 
+  
+}
+#image6{
+    border: 5px solid darkseagreen;      
+    border-radius: 10px;         
+    padding: 10px;               
+    margin: 20px;                 
+    width: 600px;  
+    height: 600px; 
+}
+
+
+
+#divNom{
+    margin:20px;
+    text-align:justify;
+    color: darkseagreen;
+    font-weight: bold; 
+
+    
+}
+
+#divMessage{
+    margin:20px;
+    text-align:justify;
+    color: darkseagreen;
+    font-weight: bold; 
+
+}
+
+#divEmail{
+    margin:20px;
+    text-align:justify;
+    color: darkseagreen;
+    font-weight: bold; 
+
+}
+
+
+
+button {
+    text-align: center;
+    margin:30px;
+    background-color: #4CAF50; 
+    color: white;            
+    padding: 15px;      
+    border:20px;             
+    border-radius: 16px;        /* Angles arrondis */
+    cursor: pointer;           /* Curseur en forme de main */
+    font-size: 15px;          
+}
+
+
+.t1{
+    background-color:#f2f2f2; 
+    font-weight: bold; 
+
+
+}
+
+.G{
+    background-color:azure;
+    font-size:medium;
+    font-family:serif;
+}
+
+.S{
+    background-color:azure;
+    font-size:medium;
+    font-family:serif;
+}
+
+.W{
+    background-color:azure;
+    font-size:medium;
+    font-family:serif;
+}
+
+
+#B{
+  text-align: center;
+  color:darkgreen ;
+  font-weight: 700px;
+   margin: 50px;
+}
+
+
+*{
+    background-color:beige;
+}
+
+.menu{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: large;
+    margin:40px;
+}
+
+#P{
+    margin:20px;
+
+}
+#t{
+    margin: 20px;
+}
+
+#g{
+    margin: 20px;
+}
+
+#c{
+    margin: 20px;
+}
+
+#M{
+    margin: 20px;
+}

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
     <title>Green kitchen </title>
    
 </head>
 <body>
     <header>
-        <h1>Bienvenue chez Green Kitchen </h1>
+        <h1 id="B">Bienvenue chez Green Kitchen </h1>
        
         <nav>
-            <ul>
+            <ul class="menu ">
                 <li><a href="#p">Plats délicieux</a></li>
                 <li><a href="#t">Témoignages élogieux</a></li>
                 <li><a href="#g">Galerie</a></li>
@@ -25,25 +27,25 @@
     <h2 id="P"> Nos Repas Écologiques </h2>
     <p> Découvrez une variété de repas sains et délicieux </p>
 
-    <h3> Gyozas Japonais </h3>
+    <h3 id="P"> Gyozas Japonais </h3>
     <p> une délice végétarien </p>
-    <img src="images/téléchargement.jpeg">
+    <img id="image1" src="images/téléchargement.jpeg">
 
-    <h2> Salade d'Avocat </h2>
+    <h2 id="P"> Salade d'Avocat </h2>
     <p> Rafrâichissante et nutritive </p>
-    <img src="images/téléchargement (1).jpeg">
+    <img  id="image2" src="images/téléchargement (1).jpeg">
 
     <h2 id="t"> Témoignage des clients  </h2>
-    <img src="images/Homem novo ocasional feliz que mostra o polegar acima e o sorriso isolado_ _ Foto Premium.jpeg">
+    <img  id="image3" src="images/Homem novo ocasional feliz que mostra o polegar acima e o sorriso isolado_ _ Foto Premium.jpeg">
     <p> "Un service exceptionnel et des repas délicieux!"  </p>
 
 
 
     <h2 id="g"> Galerie de Repas </h2>
 
-    <img src="images/Dietician Shows How The Same Meal Can Have 400+ Calorie Difference And We All Need To Make These Changes.jpeg">
-    <img src="images/Recette Estivale _ Salade de Quinoa et Avocat.jpeg">
-    <img src="images/Vegan Cauliflower Gyros.jpeg">
+    <img  id="image4" src="images/Dietician Shows How The Same Meal Can Have 400+ Calorie Difference And We All Need To Make These Changes.jpeg">
+    <img   id="image5" src="images/Recette Estivale _ Salade de Quinoa et Avocat.jpeg">
+    <img   id="image6" src="images/Vegan Cauliflower Gyros.jpeg">
    
 
    
@@ -52,7 +54,7 @@
 
     
     <div id="divNom">
-        <p>Nom:</p>
+        <p id="PA"> Nom:</p>
         <input type="text"  placeholder="Entrez votre Nom" >
 
     </div>
@@ -68,13 +70,13 @@
     <textarea></textarea>
     </div>
   
-    <button type="submit"> Envoyer </button>
+    <button id="button" type="submit"> Envoyer </button>
 
    <h2 id="M" >Tableau des Repas </h2>
 
    <table border="1">
     <thead>
-      <tr>
+      <tr class="t1">
         <th> Nom du Repas </th>
         <th>Description </th>
         <th>Prix</th>
@@ -82,19 +84,19 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="G">
         <td>Gyozas Japonais </td>
         <td> Un délice végétarien avec des légumes frais  </td>
         <td>12,99€</td>
         <td>En stock</td>
       </tr>
-      <tr>
+      <tr class="S">
         <td>Salade d'Avocat </td>
         <td>Salde fraÎche avec avocat et vinaigrette maison  </td>
         <td>9,99€</td>
         <td>En stock</td>
       </tr>
-      <tr>
+      <tr  class="W">
         <td>Wrap Vegan</td>
         <td>Wrap au houmous,légumes grillés et avocat </td>
         <td>8,99€</td>
